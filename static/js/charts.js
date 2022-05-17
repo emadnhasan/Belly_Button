@@ -56,7 +56,7 @@ function buildMetadata(sample) {
 // 1. Create the buildCharts function.
 function buildCharts(sample) {
   // 2. Use d3.json to load and retrieve the samples.json file 
-  d3.json("static/js/samples.json").then((data) => {
+  d3.json("C:\Users\emadn\Class\Belly_Button\samples.json").then((data) => {
     // 3. Create a variable that holds the samples array. 
     var samplesArray = data.samples;
     console.log(samplesArray);
